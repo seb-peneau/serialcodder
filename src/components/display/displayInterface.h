@@ -10,6 +10,9 @@ class DisplayInterface
     virtual void setup (DebugInterface *debug);
     virtual void loop ();
     virtual void clearDisplay ();
+    virtual void print(String message);
+    virtual void setCursorPosition(int position);
+    virtual void setBrightness(int value);
 };
 
 #endif

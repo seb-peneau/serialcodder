@@ -4,7 +4,7 @@
 #include "../debugInterface.h"
 #include "Arduino.h"
 
-#define BAUDRATE 115200
+#define BAUDRATE 9600
 
 /** Uncomment following line to enable debug **/
 #define DEBUG 1
